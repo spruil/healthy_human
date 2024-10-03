@@ -1,11 +1,12 @@
 # TODO 🚧
 
-
+```
 git config receive.denyCurrentBranch ignore
     2  nano .git/hooks/post-receive
     3  chmod +x .git/hooks/post-receive
     
     setup
+    
 Has conversation started by @spruil. Original line has conversation started by @spruil.
     $ cat .git/hooks/post-receive
 #!/bin/bash
@@ -15,6 +16,7 @@ refresh
 
 
 
+```
 
 Your new site is all yours so it doesn't matter if you break it! Try editing the code–add a button element that moves when the user clicks it.
 
