@@ -1,4 +1,4 @@
-# example of
+# updated ... example of
 github repo controlling glitch
 + weird stuff with dual glitch and pages ( folders and slashes ) 
 https://github.com/wei/git-sync
