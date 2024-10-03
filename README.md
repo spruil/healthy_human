@@ -19,6 +19,9 @@ https://dev.to/bacongravy/introducing-glitcheroo-the-simple-deployment-tool-for-
 https://github.com/kanadgupta/glitch-sync
 
 
+https://help.glitch.com/hc/en-us/articles/16287591605517-Can-I-export-GitHub-Actions-from-my-Glitch-project
+https://support.glitch.com/t/is-it-possible-to-push-changes-to-a-github-repository-from-glitch-everytime-a-major-change-has-been-made/21894/2
+
 
 # Hello website!
 
