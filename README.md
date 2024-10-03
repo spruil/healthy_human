@@ -1,3 +1,28 @@
+# updated ... example of
+github repo controlling glitch
++ weird stuff with dual glitch and pages ( folders and slashes ) 
+https://github.com/wei/git-sync
+https://dev.to/glitch/automating-my-deploys-from-github-to-glitch-2fpd
+
+
+TODO ( glitch needs auto refresh after new files updates ) FROM https://support.glitch.com/t/possible-to-code-locally-and-push-to-glitch-with-git/2704/11
+git config receive.denyCurrentBranch updateInstead worked great for me!
+
+I also found a way to automate the refresh command with a post-receive hook 11. This command in the console should do it, from your home directory (which is where you start by default):
+
+echo refresh > .git/hooks/post-receive && chmod u+x .git/hooks/post-receive
+
+This simply adds a file containing the line “refresh” (to make a script that calls Glitch’s refresh command) at .git/hooks/post-receive, which is a special script that Git will call after receiving updates. So after receiving the push, it will call the refresh command and reload the app with your changes automatically. I tested it out on one of my repos and it seems to work great!
+
+other 
+https://dev.to/bacongravy/introducing-glitcheroo-the-simple-deployment-tool-for-glitch-31fb
+https://github.com/kanadgupta/glitch-sync
+
+
+https://help.glitch.com/hc/en-us/articles/16287591605517-Can-I-export-GitHub-Actions-from-my-Glitch-project
+https://support.glitch.com/t/is-it-possible-to-push-changes-to-a-github-repository-from-glitch-everytime-a-major-change-has-been-made/21894/2
+
+
 # Hello website!
 
 This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄
