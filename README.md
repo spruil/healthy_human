@@ -75,3 +75,5 @@ Add these meta tags for SEO and social sharing between your page `<head></head>`
 
 spruil/healthy_human
 https://dev.to/glitch/automating-my-deploys-from-github-to-glitch-2fpd
+
+https://github.com/v3ai/qcom/tree/master
